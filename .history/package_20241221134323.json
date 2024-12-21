@@ -1,0 +1,30 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "blog api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "supervisor server.js",
+    "test": "mocha --timeout 1000 --exit"
+  },
+  "author": "ademola",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "supervisor": "^0.12.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^4.4.0",
+    "mocha": "^11.0.1",
+    "mongoose": "^8.9.2"
+  }
+}
